@@ -67,13 +67,7 @@
                 <h4>Reductions</h4>
               </div>
             </div>
-                    <div class="form-group form-group--inline">
-                      <label>Code Promo
-                      </label>
-                      <div class="form-group__content">
-                        <input value="<?php if(isset($_COOKIE['email'])){echo $code;}else{echo "";}?>" class="form-control" type="text" name="adresse">
-                      </div>
-                    </div>
+
           </div>
         <div class="ps-section__header text-center">
             <h3 class="ps-section__title">Savoir Plus</h3>

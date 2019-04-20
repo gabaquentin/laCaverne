@@ -32,14 +32,7 @@ $listeAbonnes=$abonne1C->afficherAbonnes();
 
                            $fidelite1C=new FideliteC();
                            $listeFidelites=$fidelite1C->afficherfidelites();
-						   
-                           foreach($listeFidelites as $row)
-                           {
-                               if($row['email'] == $_COOKIE['email'])
-                               {
-                                   $code = $row['code'];
-                               }
-                           }						   
+						   					   
 						   
 
 
